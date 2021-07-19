@@ -1,0 +1,27 @@
+.bg-jr-nav{
+    background-color: orange;
+}
+
+.bg-jr{
+    background-color: rgba(135, 206, 250, 0.438);
+}
+.carousel-h1-color{
+    color: orange;
+}
+.image-animation:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;   
+}
+
+.bg-icon{
+    background-color: green;
+    color: honeydew;
+}
+.image-animation-icon:hover{
+    background-color: orange;
+    color: lightskyblue;
+    transform: rotate(25deg);
+    transition: transform 0.3s; 
+
+}
+.margin-carousel{
