@@ -1,3 +1,19 @@
+html::-webkit-scrollbar
+{
+    width:15px;
+}
+
+html::-webkit-scrollbar-track
+{
+    background:orange;
+}
+
+html::-webkit-scrollbar-thumb
+{
+    background:rgb(253, 4, 191);
+}
+
+
 .bg-jr-nav{
     background-color: orange;
 }
@@ -22,6 +38,17 @@
     color: lightskyblue;
     transform: rotate(25deg);
     transition: transform 0.3s; 
-
 }
-.margin-carousel{
+.form-bg{
+    /* background-color: yellow; */
+    background: url(../back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-icon:hover{
+    color: orange;
+    background-color: black;
+}
+
+

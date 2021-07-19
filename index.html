@@ -23,7 +23,7 @@
 <body>
     <header>
         <!-- navbar section start -->
-        <nav class="navbar navbar-expand-lg navbar-light mb-5 bg-jr-nav fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light  bg-jr-nav fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <a class="navbar-brand" href="#">
@@ -38,13 +38,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#About Our Work">About US</a>
+                    <a class="nav-link active" aria-current="page" href="#About">About US</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#Photos Collection">Photos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact US</a>
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact US</a>
                   </li>
                   
                 </ul>
@@ -130,7 +130,7 @@
     <!-- start main html-5 -->
     <main>
         <!-- About work Area -->
-        <section class="container" id="About Our Work">
+        <section class="container" id="About">
             <h1 class="pb-5 mt-5">About Our Work</h1>
             <div class="row g-3">
                 <div class="col-12 col-md-6 col-lg-3">
@@ -436,27 +436,57 @@
                         <div class="card-body">
                           <h5 class="card-title">Monthly $1500</h5>
                           <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        
+                        </div>     
                       </div>
                   </div>
               </div>
-
-
         </section>
-         
+        <!-- photos section end -->
 
+        
+        <!----------------------- 
+          form section start now 
+        ----------------------->
+
+        <form class="form-bg" id="contact" action="">
+          <section class="container py-5 mt-5">
+            <div class="text-center">
+              <h1>HAVE SOME QUESTIONS?</h1>
+            <p>moldown uk: strada 31 August 1989 78, Chi. MD-2200</p>
+            <div class=" fa-2x"> 
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
+            </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1"  class="form-label"></label>
+                  <input type="text" class="form-control" required id="exampleFormControlInput1" placeholder="First Name">
+                  <label for="exampleFormControlInput1" class="form-label"></label>
+                  <input type="text" class="form-control" required id="exampleFormControlInput1" placeholder="Last name">
+                  <label for="exampleFormControlInput1" class="form-label"></label>
+                  <input type="email" class="form-control" required id="exampleFormControlInput1" placeholder="What's your email?">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Your Questions</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button class="btn btn-warning">SEND MESSAGE</button>
+              </div>
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/form/form.png" alt="">
+              </div>        
+            </div>
+          </section>
+        </form>
     </main>
-    
-
-
-
-
-
-
-
-
-
+    <footer class="pt-5">
+      <p class="text-center"><small>Copyright © 2021 Junior Developer Team</small></p>
+    </footer>
+    <!-- main close -->
     <!-- bootstrap java script link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
